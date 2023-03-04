@@ -10,7 +10,7 @@ while j>0: #inverterá todas a s letras
         lista[z]=lista[z+1]#trocar uma dado pelo outro no próximo índice
         lista[z+1]=troca #o valor de troca inserido na lista
         z=z+1 #fazer z ir assumir próximo índice
-        x=x-1 #operação andar com o dado a quantidade de índices que, ir diminuindo
+        x=x-1 #operação andar com o dado a quantidade de índices que a lista tem, ir diminuindo
     x=guard-1 #ajudará a trocar todas as letras de posição até zerar
     z=0 
     j=j-1 #ajudará a inverter as letras
