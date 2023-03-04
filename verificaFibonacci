@@ -1,0 +1,12 @@
+a1=0 #primeiro número da soma
+a2=1 #segunda número da soma 
+an = int(input("digite um número: "))  #número a verificar pertencimento na sequência de fibonacci
+i=0  #termo a ser encontrado na soma
+while i<an: #parâmetro para while rodar enquanto i menor que o número a ser verificado
+    i= a1+a2
+    a1=a2 #troca de dados
+    a2=i #a2 assume i para que a conta continue do número que parou
+if i==an: #condição verificação se pertence a sequência
+    print("O número" ,an,"faz parte da sequência")
+else: #condição número não pertence a sequência
+    print("O número" ,an,"não faz parte da sequência")
